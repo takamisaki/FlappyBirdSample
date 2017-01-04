@@ -1,0 +1,20 @@
+#ifndef FlappyBirdHomeworkPCH_pch
+#define FlappyBirdHomeworkPCH_pch
+
+#import <AVFoundation/AVFoundation.h>
+#import <SpriteKit/SpriteKit.h>
+#import "LNBirdNode.h"
+#import "LNConnectedNode.h"
+#import "LNPlayer.h"
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+
+//打印简洁化
+#define NSLog(FORMAT, ...) fprintf(stderr,"%s\n",[[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+
+
+
+
+#endif /* FlappyBirdHomeworkPCH_pch */
