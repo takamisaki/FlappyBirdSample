@@ -2,6 +2,10 @@
 
 Practice SpriteKit and Objective-C by Xcode, making a simple copy of FlappyBird.
 
+# Present
+
+![](https://ww4.sinaimg.cn/large/006y8lVagw1fbfuuefyr9g30g90u0qv8.gif)
+
 # Usage
 
 1. This project is only implemented by Xcode on Mac, so please make sure you have installed Xcode on your Mac.
